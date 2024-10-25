@@ -52,7 +52,7 @@ def backtrace(S, A, B):
     return "".join(A_aligned[::-1]), "".join(B_aligned[::-1])
 
 
-# example usage
+# example usage (From Wikipedia)
 seqA = ["G", "G", "T", "T", "G", "A", "C", "T", "A"]
 seqB = ["T", "G", "T", "T", "A", "C", "G", "G"]
 matrix = smith_waterman_score_matrix(seqA, seqB)
